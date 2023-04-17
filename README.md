@@ -25,8 +25,6 @@ To achieve the objective of finding patterns and trends and predicting flight re
 5. Model development: Four classification models, namely K-Nearest Neighbors, Naive Bayes, Decision Trees, and Random Forest, were developed to predict the flight results. The hyperparameters of each model were experimented with to find the optimal hyperparameters.
 6. Model evaluation: The classification models were compared based on their accuracy, precision, recall, and F1-score to determine the optimal model that best predicts the flight results.
 
-By performing these steps, this analytics project provided insights into the flight data and developed a predictive model that can be used to optimize airline operations and improve customer satisfaction.
-
 ### Evaluation and Result
 TBD
 
