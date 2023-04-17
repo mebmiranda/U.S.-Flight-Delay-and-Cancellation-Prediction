@@ -16,8 +16,16 @@ The Airline On-Time Performance dataset is used to get information about the fli
 Several data cleaning processes such as removing irrelevant data, removing null data, fixing feature data type, and grouping some of the columns to make the final dataset ready for analysis.
 
 ### Methodology
-TBD
+To achieve the objective of finding patterns and trends and predicting flight results (on-time, delay, and cancelled), the following steps were performed:
 
+1. Data acquisition and cleaning: The flight and weather datasets were downloaded, and the necessary data cleaning process was performed. The two datasets were merged to add weather information to the flight dataset.
+2. Exploratory data analysis: The dataset was explored using descriptive statistics, data visualization, and other techniques to identify patterns and trends.
+3. Data preprocessing: The categorical data was converted to dummy variables, and the data was standardized to have a range of 0-1.
+4. Dimensionality reduction: Principal Component Analysis (PCA) was performed to reduce the dimensionality of the dataset and to identify the most important features.
+5. Model development: Four classification models, namely K-Nearest Neighbors, Naive Bayes, Decision Trees, and Random Forest, were developed to predict the flight results. The hyperparameters of each model were experimented with to find the optimal hyperparameters.
+6. Model evaluation: The classification models were compared based on their accuracy, precision, recall, and F1-score to determine the optimal model that best predicts the flight results.
+
+By performing these steps, this analytics project provided insights into the flight data and developed a predictive model that can be used to optimize airline operations and improve customer satisfaction.
 
 ### Evaluation and Result
 TBD
