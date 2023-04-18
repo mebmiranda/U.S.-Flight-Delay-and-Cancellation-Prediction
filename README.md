@@ -25,8 +25,9 @@ The project's evaluation and results are yet to be determined.
 
 ### Files
 - Data folder: contains information about the data used for the project
-- Analysis folder: contains Jupyter notebooks with the code used for the data analysis and modeling
-- Report folder: contains the project report and presentation
+- Analysis.ipynb: contains Jupyter notebook that contains all the python codes used to perform data analysis
+- Project Proposal ISYE 6740.pdf: The submitted project proposal. 
+- Project Report ISYE 6740.pdf: The submitted project report.
 
 ### Conclusion
 This project aims to address the issue of flight delays and cancellations using data analytics. The team used the Airline On-Time Performance dataset and local weather data to predict flight results for the 10 busiest U.S. airports. The classification models developed in this project can be used to aid airlines in making better decisions regarding flight cancellation, leading to improved customer experience and route recovery planning.
