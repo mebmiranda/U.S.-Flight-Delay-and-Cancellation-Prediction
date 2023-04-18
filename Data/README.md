@@ -11,7 +11,7 @@ The following data sources were used in this project:
 The following files are included in this folder:
 - Lookup Tables Folder: This folder contains lookup tables for Flight Data.
 - Flight Data.md: This file contains link to the raw flight dataset.
-- Weather Data.md: This file provides details about the raw weather dataset.
+- Weather Data.md: This file contains link to the raw weather dataset.
 - flight_final.csv: This file contains the cleaned flight dataset.
 - weather_final.csv: This file contains the cleaned weather dataset.
 - merged_final.md: This file contains link to the final dataset, which is a merge of the cleaned flight and weather datasets.
