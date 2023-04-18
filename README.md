@@ -8,7 +8,7 @@ Flight delays and cancellations are a significant problem for both travelers and
 2. Planning of route recovery: By being more intentional on the flights/routes that are canceled, airlines can better plan how to get back to 100% operational capacity, with the least amount of delays.
 
 ### Data Source
-The data used for this project is the Airline On-Time Performance dataset, which is created and maintained by the Bureau of Transportation Statistics. The team filtered the dataset to only include the top 10 busiest U.S airports and merged it with local weather data from the National Centers for Environmental Information (NCEI).
+The data used for this project is the [Airline On-Time Performance](https://www.transtats.bts.gov/TableInfo.asp?gnoyr_VQ=FGJ&QO_fu146_anzr=b0-gvzr&V0s1_b0yB=D) dataset, which is created and maintained by the Bureau of Transportation Statistics. The team filtered the dataset to only include the top 10 busiest U.S airports and merged it with local weather data from the [National Centers for Environmental Information](https://www.ncei.noaa.gov/cdo-web/datatools/lcd) (NCEI).
 
 ### Methodology
 The team performed the following steps to achieve the project objective:
