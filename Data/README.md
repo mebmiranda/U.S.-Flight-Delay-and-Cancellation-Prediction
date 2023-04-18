@@ -10,11 +10,11 @@ The following data sources were used in this project:
 ### Files
 The following files are included in this folder:
 - Lookup Tables Folder: This folder contains lookup tables for Flight Data.
-- Flight Data.md: This file provides details about the raw flight dataset.
+- Flight Data.md: This file contains link to the raw flight dataset.
 - Weather Data.md: This file provides details about the raw weather dataset.
 - flight_final.csv: This file contains the cleaned flight dataset.
 - weather_final.csv: This file contains the cleaned weather dataset.
-- merged_final.csv: This file contains the final dataset, which is a merge of the cleaned flight and weather datasets.
+- merged_final.md: This file contains link to the final dataset, which is a merge of the cleaned flight and weather datasets.
 - Flight.ipynb: This Jupyter notebook contains Python code used to clean the Flight Data.
 - Weather.ipynb: This Jupyter notebook contains Python code used to clean the Weather Data.
 - Merged.ipynb: This Jupyter notebook contains Python code used to merge the cleaned weather_final.csv and flight_final.csv datasets.
