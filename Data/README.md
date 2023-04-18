@@ -4,12 +4,12 @@ This folder contains information about the datasets used in this project. The da
 
 ### Data Sources
 The following data sources were used in this project:
-- Bureau of Transportation Statistics - Airline On-Time Performance: The dataset contains flight information from 1987 to 2023, including airline carrier, airport departure and destination, arrival time, delay times, and cancellation information.
-- National Centers for Environmental Information (NCEI) Weather Data: The dataset contains hourly and daily weather information for each U.S. airport, including altimeter, temperature, precipitation, pressure, wind direction and speed, humidity, and visibility.
+- [Bureau of Transportation Statistics - Airline On-Time Performance](https://www.transtats.bts.gov/TableInfo.asp?gnoyr_VQ=FGJ&QO_fu146_anzr=b0-gvzr&V0s1_b0yB=D): The dataset contains flight information from 1987 to 2023, including airline carrier, airport departure and destination, arrival time, delay times, and cancellation information.
+- [National Centers for Environmental Information](https://www.ncei.noaa.gov/cdo-web/datatools/lcd) (NCEI) Weather Data: The dataset contains hourly and daily weather information for each U.S. airport, including altimeter, temperature, precipitation, pressure, wind direction and speed, humidity, and visibility.
 
 ### Files
 The following files are included in this folder:
-- Lookup Tables Folder: This folder contains lookup tables used in the project.
+- Lookup Tables Folder: This folder contains lookup tables for Flight Data.
 - Flight Data.md: This file provides details about the raw flight dataset.
 - Weather Data.md: This file provides details about the raw weather dataset.
 - flight_final.csv: This file contains the cleaned flight dataset.
