@@ -14,7 +14,7 @@ The following files are included in this folder:
 - Weather Data.md: This file contains link to the raw weather dataset.
 - flight_final.csv: This file contains the cleaned flight dataset.
 - weather_final.csv: This file contains the cleaned weather dataset.
-- merged_final.md: This file contains link to the final dataset, which is a merge of the cleaned flight and weather datasets.
+- Merged Dataset (Final Dataset).md: This file contains link to the final dataset, which is a merge of the cleaned flight and weather datasets.
 - Flight.ipynb: This Jupyter notebook contains Python code used to clean the Flight Data.
 - Weather.ipynb: This Jupyter notebook contains Python code used to clean the Weather Data.
 - Merged.ipynb: This Jupyter notebook contains Python code used to merge the cleaned weather_final.csv and flight_final.csv datasets.
