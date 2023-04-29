@@ -21,7 +21,29 @@ The team performed the following steps to achieve the project objective:
 6. Model evaluation: The classification models were compared based on their accuracy, precision, recall, and F1-score to determine the optimal model that best predicts the flight results.
 
 ### Evaluation and Result
-The project's evaluation and results are yet to be determined.
+Initially, the plan was to predict flight results as either On Time/Early, Slight Delay, Moderate Delay, Long Delay, or Cancelled. However, upon observing the data, it became apparent that there was no significant differentiation between the various delay categories and On Time/Early. Consequently, it was decided to simplify the scenario by classifying flight results as either Arrived or Cancelled, combining On Time/Early, Slight Delay, Moderate Delay, and Long Delay into the Arrived category.
+
+To assess each model's performance, various classification measures were utilized, such as accuracy, precision, F1 score, and recall. Please refer to the actual paper for more information. The table below presents the accuracy of each model for different scenarios:
+
+Scenario 1: Flight Results - On Time/Early, Slight Delay, Moderate Delay, Long Delay, or Cancelled
+
+| Model         | Accuracy | Features Used                                                       |
+|---------------|----------|----------------------------------------------------------------------|
+| KNN           | 61.99%   | PCA ; components = 2                                                |
+| Naive Bayes   | 61.13%   | PCA ; components = 2                                                |
+| Decision Tree | 62.09%   | Relative Humidity, Dry Bulb Temp, Visibility, Sea Level Temp, Wind Direction |
+| Random Forest | 57.07%   | Relative Humidity, Wet Bulb Temp, Precipitation, Sea Level Temp, Wind Direction |
+
+Scenario 2: Flight Results - Arrived or Cancelled
+| Model         | Accuracy | Features Used                                                       |
+|---------------|----------|----------------------------------------------------------------------|
+| KNN           | 99.08%   | PCA ; components = 2                                                |
+| Naive Bayes   | 99.00%   | PCA ; components = 2                                                |
+| Decision Tree | 99.04%   | Relative Humidity, Dry Bulb Temp, Visibility, Sea Level Temp, Wind Direction |
+| Random Forest | 99.50%   | Relative Humidity, Wet Bulb Temp, Precipitation, Sea Level Temp, Wind Direction |
+
+While the four models performed poorly in scenario 1, the accuracy improved to 99% in scenario 2 for all models. Random Forest model appears to be the most effective, with an accuracy of 99.50%, utilizing features such as Relative Humidity, Wet Bulb Temperature, Precipitation, Sea Level Temperature, and Wind Direction.
+
 
 ### Files
 - Data folder: contains information about the data used for the project
@@ -30,4 +52,8 @@ The project's evaluation and results are yet to be determined.
 - Project Report ISYE 6740.pdf: The submitted project report.
 
 ### Conclusion
-This project aims to address the issue of flight delays and cancellations using data analytics. The team used the Airline On-Time Performance dataset and local weather data to predict flight results for the 10 busiest U.S. airports. The classification models developed in this project can be used to aid airlines in making better decisions regarding flight cancellation, leading to improved customer experience and route recovery planning.
+Flight delays and cancellations can cause significant inconvenience to travelers and incur significant costs to airlines. This project aimed to address this issue by using data analytics to predict flight results for the 10 busiest U.S. airports. The Airline On-Time Performance dataset and local weather data were utilized to develop predictive models for two scenarios.
+
+In the first scenario, flight results were classified as On Time/Early, Slight Delay, Moderate Delay, Long Delay, or Cancelled. However, no significant distinction was found between the different types of delays and on-time/early flights. Thus, On Time/Early, Slight Delay, Moderate Delay, and Long Delay flights were grouped as Arrived for the second scenario, which only classified flight results as either Arrived or Cancelled.
+
+While the four models performed poorly in scenario 1, with accuracy ranging from 57.07% to 62.09%, all models achieved an impressive 99% accuracy in scenario 2. The success of the models in scenario 2 suggests that the current dataset may be missing important features that are useful in distinguishing On Time/Early and Delay flights. Future studies could consider additional relevant features such as airport congestion or airline schedules, which could further improve the model's ability to predict flight delays.
